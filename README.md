@@ -8,7 +8,11 @@ This template should help get you started developing with Vue 3 in Vite by types
 - [Usage](#usage)
   - [clone](#clone)
   - [pull newest commits](#pull-newest-commits)
-  - [how to exclude the `base` branch?](#how-to-exclude-the-base-branch)
+  - [how to exclude the `base` branch?](#how-to-exclude-the-base-branch?)
+- [Note](#note)
+  - [no-var](#no-var)
+  - [no-console](#no-console)
+  - [other](#other)
 
 </details>
 
@@ -90,3 +94,17 @@ git log
 git checkout main
 git cherry-pick <commit-hash>
 ```
+
+## Note
+
+### no-var
+
+This config can't use `var`, you can use `const ` and `let` instead of it.
+
+### no-console
+
+This config can't use methods on `console`, if you really need it, please write it wrapped by runInDev() in the `src/utils/console.js`.
+
+### other
+
+If you have some exceptions, please write `overrides` of `.eslintrc.json`.

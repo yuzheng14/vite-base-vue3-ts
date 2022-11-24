@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import reportWebVitals from '../webVitals'
+import { logWebVitals } from './utils/console'
 
 if (!import.meta.env.PROD) reportWebVitals(console.log)
 </script>
