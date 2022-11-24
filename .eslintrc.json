@@ -7,8 +7,9 @@
   "extends": [
     "eslint:recommended",
     "plugin:vue/vue3-essential",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "plugin:@typescript-eslint/recommended"
+    // 代码审查与格式化分离
+    // "plugin:prettier/recommended"
   ],
   "overrides": [],
   "parser": "vue-eslint-parser",
