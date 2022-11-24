@@ -7,6 +7,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.44.0
   '@vitejs/plugin-vue': ^3.2.0
   cz-git: ^1.3.12
+  czg: ^1.3.12
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-prettier: ^4.2.1
@@ -31,6 +32,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.44.0_hsf322ms6xhhd4b5ne6lb74y4a
   '@vitejs/plugin-vue': 3.2.0_vite@3.2.4+vue@3.2.45
   cz-git: 1.3.12
+  czg: 1.3.12
   eslint: 8.28.0
   eslint-config-prettier: 8.5.0_eslint@8.28.0
   eslint-plugin-prettier: 4.2.1_cwlo2dingkvfydnaculr42urve
@@ -981,6 +983,11 @@ packages:
 
   /cz-git/1.3.12:
     resolution: {integrity: sha512-grTgbgjsRpvkYNjm8kmpvHHw/LkkS3SlQOOwgamhRZo7c5qQfts1QZdkJ6RP0K61BcxyH5siMz8qC/MDoW/tBA==}
+    dev: true
+
+  /czg/1.3.12:
+    resolution: {integrity: sha512-p+Jm5AVatbaMeo2lRyuj5xm9iuxe/A6s9WA/Jfu+g3FWYHkG+StsNXJw1u8i1qqfmbu2hj9rXgF0lTltwHHKSA==}
+    hasBin: true
     dev: true
 
   /dargs/7.0.0:
