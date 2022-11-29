@@ -21,7 +21,7 @@ const removeIgnoredFiles = async (files) => {
 // 导出 lint-staged 的配置
 export default {
   // 对于 js 或者 ts 文件使用 eslint 进行审查
-  'src/*.{js,jsx,ts,tsx,vue}': async (files) => {
+  'src/**/*.{js,jsx,ts,tsx,vue}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files)
     return [`prettier --write ${filesToLint}`,`eslint --max-warnings=0 ${filesToLint}`]
   },
