@@ -8,7 +8,7 @@ This template should help get you started developing with Vue 3 in Vite by types
 - [Usage](#usage)
   - [clone](#clone)
   - [pull newest commits](#pull-newest-commits)
-  - [how to exclude the `base` branch?](#how-to-exclude-the-base-branch?)
+  - [how to exclude the `base` branch?](#how-to-exclude-the-base-branch)
 
 </details>
 
