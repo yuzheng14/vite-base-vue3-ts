@@ -28,7 +28,6 @@
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "no-var": "error",
-    "no-console": "error",
     "@typescript-eslint/no-explicit-any": [
       "error",
       {
