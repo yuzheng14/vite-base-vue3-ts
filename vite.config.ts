@@ -5,6 +5,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [vue()],
   esbuild: {
-    drop: process.env.PROD ? ['console', 'debugger'] : [],
+    drop: process.env.NODE_ENV === 'production' ? ['console', 'debugger'] : [],
   },
 })
