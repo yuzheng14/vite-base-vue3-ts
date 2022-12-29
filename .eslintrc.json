@@ -11,14 +11,7 @@
     // 代码审查与格式化分离
     // "plugin:prettier/recommended"
   ],
-  "overrides": [
-    {
-      "files": ["src/utils/console.ts"],
-      "rules": {
-        "no-console": "off"
-      }
-    }
-  ],
+  "overrides": [],
   "parser": "vue-eslint-parser",
   "parserOptions": {
     "ecmaVersion": "latest",
