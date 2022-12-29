@@ -26,7 +26,7 @@ export default {
     'prettier --write',
   ],
   // 对于 js 或者 ts 文件使用 eslint 进行审查
-  'src/*.{js,jsx,ts,tsx,vue}': async (files) => {
+  'src/**/*.{js,jsx,ts,tsx,vue}': async (files) => {
     const filesToLint = await removeIgnoredFiles(files)
     return [`eslint --max-warnings=0 ${filesToLint}`]
   },
