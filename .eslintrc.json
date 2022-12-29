@@ -28,12 +28,22 @@
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "no-var": "error",
+    // ts 禁止显式声明 any（除 ..rest 这种情况）
     "@typescript-eslint/no-explicit-any": [
       "error",
       {
         "ignoreRestArgs": true
       }
-    ]
+    ],
+    // ts 允许不使用以下划线 "_" 开头的参数变量
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    // 允许组件名称为一个单词
+    "vue/multi-word-component-names": "off"
   },
   "noInlineConfig": true
 }
